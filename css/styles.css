@@ -4,12 +4,13 @@ body{
 }
 /*цвет лого*/
 .logo-link{
-font-weight: bold;
-font-size: 26px;
-line-height: 1.192;
-/* identical to box height */
-letter-spacing: 0.03em;
-color: #2196F3;
+    font-family: "Raleway",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1,192;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 .logo-link:hover,
 .logo-link:focus{
@@ -58,22 +59,50 @@ color: #2196F3;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    
+    color: #FFFFFF;
+    background-color: #2F303A;
 }
 /*КНОПКА*/
 
 .modal-btn{
-    font-weight: bold;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.185;
-    /* identical to box height, or 187% */
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    background-color: #2F303A;
 }
-.modal-btn:hover
-.modal-btn:focus{
-    background-color: #2196F3;
+
+h1, h2, h3, h4 {
+    font-family: "Roboto",sans-serif; 
+}
+h1 {
+    font-size: 44px;
+    line-height: 1.36;
     color: #FFFFFF;
 }
+h2{
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+h3{
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    
+}
+h4{
+
+}
+
