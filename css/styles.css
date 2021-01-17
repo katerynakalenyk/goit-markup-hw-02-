@@ -31,7 +31,7 @@ html {
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
-    line-height: 1,192;
+    line-height: 1.192;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -123,7 +123,7 @@ background: var(--bg-color);
     line-height: 1.142;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--text-color);
   }
 
 .text{
@@ -138,36 +138,11 @@ background: var(--bg-color);
   line-height: 1.667;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
 }
 
 /*=======GALERY=========*/
-.computer{
-  /* img */
-  position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1061px;
 
-}
-.loptop{
-  /* img */
-  position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1061px;
-}
-
-.tablet{
-  /* img */
-position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1061px;
-}
 
 /*===========TEAM==========*/
 .team{
@@ -185,39 +160,6 @@ letter-spacing: 0.03em;
 }
 
 /*----------img--------------*/
-}
-.igor {
-position: absolute;
-width: 270px;
-height: 260px;
-left: 215px;
-top: 1635px;
-}
-
-.olga {
-  position: absolute;
-  width: 270px;
-  height: 260px;
-  left: 515px;
-  top: 1635px;
-}
-
-.nikolay {
-  position: absolute;
-width: 270px;
-height: 260px;
-left: 815px;
-top: 1635px;
-}
-
-.mihail {
-  position: absolute;
-  width: 270px;
-  height: 260px;
-  left: 1115px;
-  top: 1635px;
-}
-
 .our-names {
   margin-top: 30px;
   font-weight: 600;
@@ -257,21 +199,21 @@ top: 1635px;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
-    line-height: 1,192;
+    line-height: 1.192;
     letter-spacing: 0.03em;
     color: #ffffff;}
   }
     
     
   .adress-map {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1,714;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #FFFFFF;
   }
 
-  .adress-visit:hover {
+  .adress-map:hover {
     color: var(--hover-color);
   }
   .down-contacts {
@@ -285,4 +227,22 @@ top: 1635px;
   .down-contacts:hover {
     color: var(--hover-color);
   }
+}
+
+/*===========PORTFOLIO============*/
+/*---buttons такаие же как и встудии--*/
+.our-works {
+font-weight: 700;
+font-size: 18px;
+line-height: 200%;
+letter-spacing: 0.06em;
+color: var(--text-color);
+}
+.our-works-text{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.875;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: var(--p-color)
 }
