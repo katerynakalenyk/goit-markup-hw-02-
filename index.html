@@ -14,7 +14,7 @@
 <body>
     <header class="main-header">
         <nav class="navigation">
-            <a class="logo-link" href="./index.html"><span>Web</span>Studio</a>
+            <a class="logo-link" href="./index.html"><span class="logo">Web</span>Studio</a>
             <ul class="navigation-list">
                 <li class="navigation-list-item">
                     <a class="navigation-list-link" href="./index.html">Студия</a>
@@ -35,8 +35,8 @@
     <main>
     <!--Hero-->
         <section class="hero">
-                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="modal-btn" type="button">Заказать услугу</button>
+                <h1 class="hero-title">Эффективные решения<br>для вашего бизнеса</h1>
+                <button type="submit" class="button"><span>Заказать услугу</span></button>
         </section>
         <section class="section-title">
 
@@ -59,56 +59,55 @@
                 </li>   
             </ul>
             <!--GALLERY-->
-            <h2>Чем мы занимаемся</h2>
-            <ul class="gallery">
-                <li>
-                    <img src="./ourproduct/box1.jpg" alt="верстка" width="370" height="294">
+            <h2 class="our-products">Чем мы занимаемся</h2>
+            <ul class="our-products-list">
+                <li class="our-products-item">
+                    <img class="computer" src="./ourproduct/box1.jpg" alt="верстка" width="370" height="294">
                 </li>
-                <li>
-                    <img src="./ourproduct/box2.jpg" alt="приожения" width="370" height="294">
+                <li class="our-products-item">
+                    <img class="loptop" src="./ourproduct/box2.jpg" alt="приожения" width="370" height="294">
                 </li>
-                <li>
-                    <img src="./ourproduct/box3.jpg" alt="дизайн" width="370" height="294">
+                <li class="our-products-item">
+                    <img class="tablet" src="./ourproduct/box3.jpg" alt="дизайн" width="370" height="294">
                 </li>
             </ul>
     </section>
-    <section>
-        <h2>Наша команда</h2>
-        <ul>
-            <li>
-                <img src="./people/img.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                <h3>Игорь Демьяненко</h3>
-                <p lang="en">Product Designer</p>
+    <section class="team" >
+        <h2 class="our-team">Наша команда</h2>
+        <ul class="our-team">
+            <li class="our-team-list">
+                <img class="igor" src="./people/img.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                <h3 class="our-names" >Игорь Демьяненко</h3>
+                <p class="our-profession" lang="en">Product Designer</p>
 
             </li>
-            <li>
-                 <img src="./people/img-1.jpg" alt="Oльга Репина" width="270" height="260">
-                 <h3>Ольга Репина</h3>
-                 <p lang="en">Frontend Developer</p>
+            <li class="our-team-list">
+                 <img class="olga" src="./people/img-1.jpg" alt="Oльга Репина" width="270" height="260">
+                 <h3 class="our-names" >Ольга Репина</h3>
+                 <p class="our-profession" lang="en">Frontend Developer</p>
  
             </li>
-            <li>
-                <img src="./people/img-2.jpg" alt="Николай Тарасов" width="270" height="260">
-                <h3>Николай Тарасов</h3>
-                <p lang="en">Marketing</p>
+            <li class="our-team-list">
+                <img class="nikolay" src="./people/img-2.jpg" alt="Николай Тарасов" width="270" height="260">
+                <h3 class="our-names" >Николай Тарасов</h3>
+                <p class="our-profession" lang="en">Marketing</p>
 
             </li>
-            <li>
-                <img src="./people/img-3.jpg" alt="Михаил Ермаков" width="270" height="260">
-                <h3>Михаил Ермаков</h3>
-                <p lang="en">UI Designer</p>
+            <li class="our-team-list">
+                <img class="mihail" src="./people/img-3.jpg" alt="Михаил Ермаков" width="270" height="260">
+                <h3 class="our-names" >Михаил Ермаков</h3>
+                <p class="our-profession" lang="en">UI Designer</p>
             </li>
         </ul>
      </section>
     </main>
-    <footer>
-        <a href="#" lang="en"><span>Web</span>Studio</a>
-        <address>
-            <a href="https://goo.gl/maps/spfhJ3f5usvw6KuQ7" target="_blank">г.Киев,пр-т Леси Украинки,26</a><br>
+    <footer id="footer" class="footer"> <!--ID для ссылки-якоря-->
+        <<a class="logo-link-2" href="./index.html"><span class="logo-2">Web</span>Studio</a>
 
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-            <a href="tel:+380961111111">+380961111111</a>
-         </address>
-    </footer>
+     <a href="https://goo.gl/maps/Ce2jviXbWAB63QqT9" class="adress-map" >г. Киев, пр-т Леси Украинки, 26 </a><br>
+     <a href="mailto:info@example.com" class="down-contacts">info@devstudio.com</a><br>
+     <a href="tel:+380961111111" class="down-contacts">+38 096 111 11 11</a>
+
+</footer>
 </body>   
 </html>
