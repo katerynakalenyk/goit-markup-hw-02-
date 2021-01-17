@@ -210,7 +210,7 @@ letter-spacing: 0.03em;
     color: #FFFFFF;
   }
 
-  .adress-map:hover {
+  .down-contacts:hover {
     color: var(--hover-color);
   }
   .down-contacts {
