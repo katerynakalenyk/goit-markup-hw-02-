@@ -16,8 +16,7 @@ html {
 }
 /*========header===========*/
 /*цвет лого*/
-.logo
-{
+.logo{
     font-family: "Raleway",sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -33,7 +32,7 @@ html {
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--text-color);
 }
 
 .navigation-list-link{
@@ -41,7 +40,7 @@ html {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--text-color);
 }
 
 .navigation-list-link:hover,
@@ -202,15 +201,13 @@ letter-spacing: 0.03em;
     line-height: 1.192;
     letter-spacing: 0.03em;
     color: #ffffff;}
-  }
-    
-    
-  .adress-map {
-font-weight: normal;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+     
+  .down-contacts {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
   }
 
   .adress-map:hover {
@@ -227,7 +224,6 @@ color: #FFFFFF;
   .down-contacts:hover {
     color: var(--hover-color);
   }
-}
 
 /*===========PORTFOLIO============*/
 /*---buttons такаие же как и встудии--*/
@@ -242,7 +238,6 @@ color: var(--text-color);
 font-weight: normal;
 font-size: 16px;
 line-height: 1.875;
-/* identical to box height, or 187% */
 letter-spacing: 0.03em;
 color: var(--p-color)
 }
