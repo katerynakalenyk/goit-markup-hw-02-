@@ -203,14 +203,13 @@ letter-spacing: 0.03em;
     color: #ffffff;}
      
   .down-addres {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #FFFFFF;
   }
 
-  .down-contacts:hover {
+  .down-addres {
     color: var(--hover-color);
   }
   .down-contacts {
